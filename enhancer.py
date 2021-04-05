@@ -88,4 +88,4 @@ if __name__ == '__main__':
         if os.path.isfile( wallpaper ):
             set_wallpaper( wallpaper )
         
-        time.sleep( 15 )
+        time.sleep( 1 )
