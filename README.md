@@ -9,6 +9,7 @@ Follow these steps:
         </ul>
     </li>
     <li> Run <code>pip install -r requirements.txt</code> </li>
+    <li> Place this project folder inside <code>C:\Users\%USERPROFILE%</code> so that the path to <code>starter.vbs</code> may look like <code>C:\Users\%USERPROFILE%\WallpaperEnhancer\starter.vbs</code></li>
     <li> Copy <code>starter.vbs</code>, press <code>Win+R</code>, type <code>shell:startup</code> and press <code>ENTER</code>: a folder ( normally, it should be named <code>C:\Users\%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</code> ) has now been opened. Paste shortcut <code>starter.vbs</code> inside. </li>
     <li> Reboot your machine </li>
 </ol>
