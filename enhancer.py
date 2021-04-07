@@ -84,7 +84,7 @@ if __name__ == '__main__':
 
     while True:
         wallpaper = get_wallpaper( path, get_time() )
-
+        
         if os.path.isfile( wallpaper ):
             set_wallpaper( wallpaper )
         
