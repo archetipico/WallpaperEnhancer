@@ -1,2 +1,3 @@
 pywin32==223
+suntime==1.2.5
 win32gui==221.6

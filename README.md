@@ -1,7 +1,11 @@
 # WallpaperEnhancer
 Follow these steps:
 <ol>
-    <li>If you want, change the pictures inside <code>./Wallpapers</code>: the file extension has to be <code>.jpeg</code> and the name of each file should match the <code>hhmmss</code> format, where:
+    <li> Place your clone under your <code>%USERPROFILE%</code>:
+    the path to <code>enhancer.py</code> should look like
+    <code>C:/Users/%USERNAME%/WallpaperEnhancer/enhancer.py</code></li>
+    <li>If you want, change the pictures inside <code>./Wallpapers</code>: the file extension has
+    to be <code>.jpeg</code> and the name of each file should match the <code>hhmmss</code> format, where:
         <ul>
             <li><code>hh</code> is the activation hour</li>
             <li><code>mm</code> is the activation minute</li>
