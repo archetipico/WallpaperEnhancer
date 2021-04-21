@@ -108,9 +108,11 @@ if __name__ == '__main__':
     images = [int( x ) for x in images_str]
 
     diff = [abs( x - int( get_time() ) ) for x in images]
-    first = images[diff.index( min( diff ) )]
+    first = str( images[diff.index( min( diff ) )] )
+    if len( first ) == 5:
+        first = '0' + first
 
-    wallpaper = get_wallpaper( path, str( first ) )
+    wallpaper = get_wallpaper( path, first )
     if os.path.isfile( wallpaper ):
         set_wallpaper( wallpaper )
 
